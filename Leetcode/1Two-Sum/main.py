@@ -11,6 +11,11 @@
 
 class Solution:
   def twoSum(self, nums, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
     output = []
     a = 0
     for numberA in nums:

@@ -15,7 +15,7 @@
 // Input: "pwwkew"
 // Output: 3
 // Explanation: The answer is "wke", with the length of 3. 
-//              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+// Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 /**
  * @param {string} s
@@ -44,7 +44,9 @@ const lengthOfLongestSubstring = s => {
   }
   let final_arr = arr_first.length > arr_second.length ? arr_first : arr_second;
   let output_str = final_arr.join('');
-  return output_str;
+  console.log('output_str is', output_str);
+  let output_length = final_arr.length;
+  return output_length;
 };
 
 console.log('Output is', lengthOfLongestSubstring('strinabcstsrisnasbcs'));
