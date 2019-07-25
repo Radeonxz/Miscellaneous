@@ -1,5 +1,6 @@
 # set upstream to local branch
 git branch --set-upstream-to=origin/develop develop
+git branch --set-upstream-to origin/develop develop
 
 # reset to remote branch
 git reset --hard origin/develop
