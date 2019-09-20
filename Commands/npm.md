@@ -7,3 +7,8 @@ npm list -g --depth 0
 ```
 npm config set proxy http://proxy_host:port
 ```
+
+#### npm check setup
+```
+npm config ls -l
+```
