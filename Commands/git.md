@@ -36,3 +36,8 @@ Discards the most recently stashed changeset
 ```
 git stash drop
 ```
+
+#### git rebase
+```
+git rebase -i HEAD~3
+```
