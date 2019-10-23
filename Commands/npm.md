@@ -3,6 +3,11 @@
 npm list -g --depth 0
 ```
 
+#### update global package
+```
+npm update package -g
+```
+
 #### check global location
 ```
 npm config get prefix
