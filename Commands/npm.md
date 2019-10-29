@@ -3,6 +3,11 @@
 npm list -g --depth 0
 ```
 
+#### check outdated packages
+```
+npm outdated -g --depth 0
+```
+
 #### update global package
 ```
 npm update package -g
