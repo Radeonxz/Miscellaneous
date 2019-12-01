@@ -1,15 +1,24 @@
 ### How to exit
 
-#### Write file and quit the editor
+#### Save changes
+```
+Esc + :w
+```
+
+#### Save and quit Vim
 
 ```
-:wq
+Esc + :wq
+```
+or
+```
+Esc + ZZ
 ```
 
-#### Quit(no warning)
+#### Quit Vim and discarding all changes
 
 ```
-:q!
+Esc + :q!
 ```
 
 #### Quit(a warning is printed if a modified file has not been saved)
