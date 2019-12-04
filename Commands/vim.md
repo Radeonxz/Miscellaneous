@@ -1,5 +1,10 @@
 ### How to exit
 
+#### Enter insert mode
+```
+i
+```
+
 #### Save changes
 ```
 Esc + :w
@@ -27,8 +32,12 @@ Esc + :q!
 :q
 ```
 
-#### Save workspace and quit the editor (same as :wq)
-
+#### Copy a line
 ```
-zz
+yy
+```
+
+#### Delete a line
+```
+dd
 ```
