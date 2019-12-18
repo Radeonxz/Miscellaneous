@@ -12,3 +12,8 @@ df -h -x squashfs
 ```
 cat ~/.ssh/id_rsa.pub
 ```
+
+#### show process starus
+```
+ps -ef
+```
