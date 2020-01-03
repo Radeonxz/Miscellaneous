@@ -1,11 +1,13 @@
 ### How to exit
 
 #### Enter insert mode
+
 ```
 i
 ```
 
 #### Save changes
+
 ```
 Esc + :w
 ```
@@ -15,7 +17,9 @@ Esc + :w
 ```
 Esc + :wq
 ```
+
 or
+
 ```
 Esc + ZZ
 ```
@@ -33,11 +37,13 @@ Esc + :q!
 ```
 
 #### Copy a line
+
 ```
 yy
 ```
 
 #### Delete a line
+
 ```
 dd
 ```
