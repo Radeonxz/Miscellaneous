@@ -42,3 +42,10 @@ sudo chown owner:owner example.txt
 ```
 ps -ef
 ```
+
+#### shutdown
+
+```
+shutdown
+shutdown now
+```
