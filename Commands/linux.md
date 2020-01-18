@@ -1,7 +1,23 @@
 #### display system information
 
 ```
+Use the -a (all) option to see everything
 uname -a
+```
+
+```
+Use the -s (kernel name) option to see the type of kernel
+uname -s
+```
+
+```
+Use the -r (kernel release) option to see the kernel release
+uname -r
+```
+
+```
+Use the -v (kernel version) option to see the kernel version
+uname -v
 ```
 
 #### show size, used space and available space
