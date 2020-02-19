@@ -23,6 +23,12 @@ git fetch origin develop:develop
 git push -f origin develop
 ```
 
+#### amend commit message
+
+```
+git commit --amend
+```
+
 #### git stash
 
 Temporarily stores all the modified tracked files
