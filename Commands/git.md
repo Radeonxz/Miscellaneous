@@ -1,3 +1,10 @@
+#### config username and email
+
+```
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
 #### set upstream to local branch
 
 ```
@@ -15,6 +22,12 @@ git reset --hard origin/develop
 
 ```
 git fetch origin develop:develop
+```
+
+#### list all remote branches
+
+```
+git remote -v
 ```
 
 #### delete remote commits
