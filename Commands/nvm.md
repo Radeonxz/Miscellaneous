@@ -15,3 +15,9 @@ nvm install x.x.x
 ```
 nvm use node x.x.x
 ```
+
+#### set default installed version
+
+```
+nvm alias default x.x.x
+```
