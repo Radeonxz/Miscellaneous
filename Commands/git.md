@@ -5,6 +5,18 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+#### add and commit in one
+
+```
+git commit -a -m 'chore: ...'
+```
+
+#### add, commit and push in one
+
+```
+git commit -am 'chore: ...' && git push
+```
+
 #### set upstream to local branch
 
 ```
