@@ -5,6 +5,12 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+#### push new local branch to remote
+
+```
+git push --set-upstream origin feature/new-local-branch
+```
+
 #### add and commit in one
 
 ```
