@@ -32,6 +32,18 @@ df -h -x squashfs
 cat ~/.ssh/id_rsa.pub
 ```
 
+#### rename file
+
+```
+mv file1 file2
+```
+
+#### rename folder
+
+```
+mv folder1/ folder2
+```
+
 #### set file permissions
 
 ```
