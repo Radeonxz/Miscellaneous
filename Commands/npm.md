@@ -32,6 +32,7 @@ npm outdated -g --depth 0
 
 ```
 npm update package -g
+npm update package@x.x.x
 ```
 
 #### check global location
