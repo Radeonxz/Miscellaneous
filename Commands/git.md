@@ -91,3 +91,9 @@ git stash drop
 ```
 git rebase -i HEAD~3
 ```
+
+#### clear git cache
+
+```
+git rm -r --cached .
+```
