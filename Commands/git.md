@@ -88,6 +88,12 @@ git stash drop
 
 #### git rebase
 
+rebase options:
+
+- pick
+- fixup
+- drop
+
 ```
 git rebase -i HEAD~3
 ```
