@@ -5,6 +5,15 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+#### config aliases
+
+```
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global alias.ci commit
+git config --global alias.st status
+```
+
 #### push new local branch to remote
 
 ```
