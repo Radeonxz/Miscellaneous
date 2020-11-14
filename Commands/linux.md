@@ -65,9 +65,10 @@ chmod -R 765 example.txt
 sudo chown owner:owner example.txt
 ```
 
-#### show process starus
+#### show process status
 
 ```
+ps -aux | less
 ps -ef
 ```
 
