@@ -65,9 +65,19 @@ chmod -R 765 example.txt
 sudo chown owner:owner example.txt
 ```
 
-#### show process starus
+#### show two files differences
 
 ```
+-y, show the line differences side by side
+-w, specify the maximum line width to use to avoid wraparound lines
+--suppress-common-lines, prevent diff from listing the matching lines
+diff -y -W 70 file1.txt file2.txt --suppress-common-lines
+```
+
+#### show process status
+
+```
+ps -aux | less
 ps -ef
 ```
 
