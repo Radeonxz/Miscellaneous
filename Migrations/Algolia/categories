@@ -1,4 +1,0 @@
-categories.id: 105 OR categories.id: 106 OR categories.id: 107 OR categories.id: 108 OR categories.id: 109 OR categories.id: 110 OR categories.id: 111 OR categories.id: 112 OR categories.id: 113 OR categories.id: 114 OR categories.id: 225 OR categories.id: 226 OR categories.id: 227 OR categories.id: 228 OR categories.id: 229 OR categories.id: 230 OR categories.id: 231 OR categories.id: 232 OR categories.id: 233 OR categories.id: 234 OR categories.id: 235 OR categories.id: 236 OR categories.id: 237 OR categories.id: 238 OR categories.id: 239 OR categories.id: 240 OR categories.id: 241 OR categories.id: 242 OR categories.id: 243 OR categories.id: 244 OR categories.id: 2
-
-
-List<Knowledge__kav> existingNewsItem = [SELECT Id, ArticleNumber, Title, Language, Published_Portal__c, Product_Picker__c, Product__c, Products__c FROM Knowledge__kav WHERE Title=:newsItem.Title];

@@ -46,7 +46,6 @@ const getRecords = async () => {
   });
 
   if (requests.length > 0) {
-    // console.log("requests is ", requests);
     requests.forEach((r) => {
       console.log(r.body.categories);
     });
